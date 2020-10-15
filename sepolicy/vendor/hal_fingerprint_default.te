@@ -17,3 +17,6 @@ hal_client_domain(hal_fingerprint_default, vendor_hal_perf)
 
 # Ignore all logging requests
 dontaudit hal_fingerprint storage_file:dir search;
+
+# Allow hal_fingerprint_default to read fastrpc_shell_3
+allow hal_fingerprint_default public_adsprpcd_file:file r_file_perms;
