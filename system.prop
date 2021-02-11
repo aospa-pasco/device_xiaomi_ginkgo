@@ -16,6 +16,9 @@ persist.lcd.hbm_mode=0
 ro.sensor.proximity=true
 ro.sensor.pickup=xiaomi.sensor.pickup
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Incremental FS
 ro.incremental.enable=1
 
