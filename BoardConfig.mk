@@ -73,6 +73,7 @@ BOARD_KERNEL_CMDLINE += kpti=off
 
 BOARD_KERNEL_SEPARATED_DTBO := true
 TARGET_KERNEL_APPEND_DTB := true
+KERNEL_SD_LLVM_SUPPORT := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/ginkgo
 TARGET_KERNEL_CONFIG := vendor/ginkgo-perf_defconfig
 
