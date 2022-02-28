@@ -300,7 +300,6 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.manual_nw_rej_ct=1 \
     persist.vendor.radio.mt_sms_ack=30 \
     persist.vendor.radio.process_sups_ind=1 \
-    persist.vendor.radio.redir_party_num=1 \
     persist.vendor.radio.report_codec=1 \
     persist.vendor.ssr.restart_level=ALL_ENABLE \
     ro.telephony.default_network=22,22
