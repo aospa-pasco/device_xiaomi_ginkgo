@@ -81,9 +81,6 @@ ro.hardware.keystore_desede=true
 vendor.power.pasr.enabled=true
 vendor.pasr.activemode.enabled=true
 
-# Perf
-ro.vendor.perf.scroll_opt=true
-
 # Radio
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
